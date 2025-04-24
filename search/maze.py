@@ -20,3 +20,11 @@ class StackFrontier():
 
     def empty(self):
         return len(self.frontier) == 0
+
+    def remove(self):
+        if self.empty():
+            raise Exception('frontier is empty')
+        else:
+            node = self.frontier[-1]
+            self.frontier = self.frontier[:-1]
+            return node
