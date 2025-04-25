@@ -30,3 +30,4 @@ class StackFrontier():
             return node
 
 
+class QueueFrontier(StackFrontier):
