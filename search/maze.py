@@ -40,4 +40,3 @@ class QueueFrontier(StackFrontier):
             self.frontier = self.frontier[1:]
             return node
 
-#-----------------------------------------
